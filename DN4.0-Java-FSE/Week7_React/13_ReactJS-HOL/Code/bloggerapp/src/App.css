@@ -1,0 +1,25 @@
+/* App.css */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px;
+}
+
+.section {
+  flex: 1;
+  padding: 20px;
+  border-right: 2px solid green;
+}
+
+/* Remove right border from the last section */
+.section:last-child {
+  border-right: none;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
